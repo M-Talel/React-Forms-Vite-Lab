@@ -1,0 +1,5 @@
+- [ ] Update Filter.jsx to use controlled search input (value={search}) and call onSearchChange on change
+- [ ] Update ItemForm.jsx to use controlled inputs for Name and Category (initial Category = "Produce") and call onItemFormSubmit on submit
+- [ ] Update App.jsx to pass onItemFormSubmit callback to ShoppingList and maintain items state by appending submitted items
+- [ ] Update ShoppingList.jsx to add controlled search state and filter items by category + search term; pass search + onSearchChange to Filter and pass onItemFormSubmit to ItemForm
+- [ ] Run test suite and fix any failures
